@@ -51,6 +51,8 @@ Route::post('/add-wishlist',[WishlistController::class, 'storewishlist']);
 Route::get('/thank-you',[FrontendController::class, 'thankyou']);
 
 
+Route::get('/test',[FrontendController::class, 'test']);
+
 
 // Route::get('/home', function () {
 //     return view('dashboard');
